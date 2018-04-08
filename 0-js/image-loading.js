@@ -14,14 +14,14 @@ function countLoadedImagesAndLaunchIfReady() {
 
 function carImageLoad() {
     carPic.onload = countLoadedImagesAndLaunchIfReady;
-    carPic.src = '_as/player1car.png';
+    carPic.src = '0-as/player1car.png';
 }
 
 function trackImageLoad() {
     roadPic.onload = countLoadedImagesAndLaunchIfReady;
     wallPic.onload = countLoadedImagesAndLaunchIfReady;
-    roadPic.src = '_as/track_road.png';
-    wallPic.src = '_as/track_wall.png';
+    roadPic.src = '0-as/track_road.png';
+    wallPic.src = '0-as/track_wall.png';
 }
 
 function loadImages() {
