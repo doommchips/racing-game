@@ -4,6 +4,9 @@ window.onload = function() {
     canvas = document.getElementById('gameCanvas');
     canvasContext = canvas.getContext('2d');
 
+    colourRect(0,0, canvas.width,canvas.height, 'black');
+    colourText('LOADING IMAGES', canvas.width/2, canvas.height/2, 'white', 'center');
+
     loadImages();
 }
 

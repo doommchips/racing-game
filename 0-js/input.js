@@ -23,12 +23,6 @@ function updateMousePos(evt) {
 
     mouseX = evt.clientX - rect.left - root.scrollLeft;
     mouseY = evt.clientY - rect.top  - root.scrollTop;
-
-    // cheats
-    // carX = mouseX;
-    // carY = mouseY;
-    // carSpeedX = 4;
-    // carSpeedY = -4;
 }
 
 function keyPressed(evt) {
