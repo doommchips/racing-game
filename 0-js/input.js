@@ -1,11 +1,11 @@
-const KEY_LEFT_ARROW = 37;
-const KEY_UP_ARROW = 38;
+const KEY_LEFT_ARROW  = 37;
+const KEY_UP_ARROW    = 38;
 const KEY_RIGHT_ARROW = 39;
-const KEY_DOWN_ARROW = 40;
+const KEY_DOWN_ARROW  = 40;
 
-var keyHeld_Gas = false;
-var keyHeld_Reverse = false;
-var keyHeld_TurnLeft = false;
+var keyHeld_Gas       = false;
+var keyHeld_Reverse   = false;
+var keyHeld_TurnLeft  = false;
 var keyHeld_TurnRight = false;
 
 var mouseX = 0;
