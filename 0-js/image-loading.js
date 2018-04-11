@@ -16,6 +16,11 @@ function beginLoadingImage(imgVar, fileName) {
     imgVar.src = '0-as/' + fileName;
 }
 
+function loadImageForTrackCode(trackCode, fileName) {
+    trackPics[trackCode] = document.createElement("img");
+    beginLoadingImage(trackPics[trackCode], fileName);
+}
+
 function loadImages() {
     var imageList = [
         {varName: carPic,  theFile: 'player1car.png'},
@@ -30,7 +35,7 @@ function loadImages() {
     picsToLoad = imageList.length;
 
     for(var i=0; i<imageList.length; i++) {
-        if(imagelist[i].varName != undefined) {
+        if(imageList[i].varName != undefined) {
             beginLoadingImage(imageList[i].varName, imageList[i].theFile);
         } else {
             loadImageForTrackCode(imageList[i].trackType, imageList[i].theFile);
